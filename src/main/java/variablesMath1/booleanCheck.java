@@ -1,4 +1,4 @@
-package week1;
+package variablesMath1;
 
 import static input.InputUtils.yesNoInput;
 

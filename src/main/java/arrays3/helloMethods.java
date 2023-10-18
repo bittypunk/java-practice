@@ -1,6 +1,4 @@
-package week3;
-
-import java.sql.SQLOutput;
+package arrays3;
 
 import static input.InputUtils.stringInput;
 

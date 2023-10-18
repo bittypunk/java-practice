@@ -1,4 +1,4 @@
-package week2;
+package loops2;
 
 import static input.InputUtils.positiveIntInput;
 import static input.InputUtils.stringInput;

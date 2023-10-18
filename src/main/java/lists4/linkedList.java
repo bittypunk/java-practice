@@ -1,4 +1,4 @@
-package week4;
+package lists4;
 
 import java.util.LinkedList;
 import java.util.List;

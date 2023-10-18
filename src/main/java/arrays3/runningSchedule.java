@@ -1,4 +1,4 @@
-package week3;
+package arrays3;
 
 public class runningSchedule {
     public static void main(String[] args) {
