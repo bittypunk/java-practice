@@ -36,7 +36,7 @@ public class tryWithResources {
         } catch (IOException e) {
             System.out.println("Couldn't open/write to " + file);
             System.out.println(e.toString());
-            System.out.println("bufwriter/filewriter were auto closed.");
+            System.out.println("bufwriter/filewriter were auto closed.0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=0-=");
         }
     }
 }
