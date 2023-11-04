@@ -1,4 +1,4 @@
-package objects9;
+package objects7;
 
 public class main {
     public static void main(String[] args) {

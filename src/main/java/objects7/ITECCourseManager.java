@@ -1,4 +1,4 @@
-package objects9;
+package objects7;
 
 public class ITECCourseManager {
     public static void main(String[] args) {
@@ -12,7 +12,21 @@ public class ITECCourseManager {
         maintenanceCourse.addStudent("Bill");
         maintenanceCourse.addStudent("Carl");
 
+        // carl decided to drop the course
+        maintenanceCourse.removeStudent("Carl");
+
         maintenanceCourse.writeCourseInfo();
+         // can get individual variable values with getter methods
+        System.out.println("Course name is: " + maintenanceCourse.getName());
+        System.out.println("Course code is: " + maintenanceCourse.getCode());
+
+        System.out.println("Max students in the course is " + maintenanceCourse.getMax());
+
+        // and can set variables, if set methods are provided
+        // can increase number of max students
+        maintenanceCourse.setMax(24);
+        System.out.println("The maximum number of students is now " + maintenanceCourse.getMax());
+
 
         ITECCourse datacomCourse = new ITECCourse("Data Communications",
                 1425, 30);
@@ -22,6 +36,7 @@ public class ITECCourseManager {
         datacomCourse.addStudent("Flora");
 
         datacomCourse.writeCourseInfo();
+
 
         ITECCourse softdevelopCourse = new ITECCourse("Software Development Projects",
                 2903, 24);
